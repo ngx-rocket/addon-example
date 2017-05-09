@@ -24,6 +24,7 @@ class ExampleGenerator extends Generator {
 }
 
 module.exports = Generator.make({
+
   // Base directory of your templates
   baseDir: __dirname,
 
@@ -48,4 +49,5 @@ module.exports = Generator.make({
       when: (props) => props.sayHello
     },
   ]
+
 });
