@@ -7,8 +7,7 @@
   "main": "./generators/app/index.js",
   "scripts": {
     "lint": "eslint *.js",
-    "test": "npm run lint",
-    "postpublish": "git tag -a $npm_package_version -m '$npm_package_version' && git push --tags"
+    "test": "npm run lint"
   },
   "keywords": [
     "yeoman-generator",
