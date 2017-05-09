@@ -10,20 +10,28 @@ class ExampleGenerator extends Generator {
   // Use initializing() method instead.
 
   initializing() {
+    // Setting version allows Yeoman to notify the user of updates
     this.version = pkg.version;
     this.log(`Using ${chalk.cyan('ngx-rocket')} addon example ${chalk.green(this.version)}`);
   }
 
   beforeWriting() {
-    // Augment this generator properties with shared properties
+    // Augment this generator's properties with shared properties so it can be
+    // used in templates
     Object.assign(this.props, this.sharedProps);
   }
 
 }
 
 module.exports = Generator.make({
+  // Base directory of your templates
   baseDir: __dirname,
+
+  // Your generator (optional, you can use only templates)
   generator: ExampleGenerator,
+
+  // Your generator prompts (optional)
+  // See https://github.com/sboudrias/Inquirer.js#objects for details
   prompts: [
     {
       type: 'confirm',
