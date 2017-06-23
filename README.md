@@ -7,3 +7,8 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 > ngX-Rocket add-on generator example
+
+See [ngx-rocket/core](https://github.com/ngx-rocket/core) for the complete documentation about add-on creation.
+
+This add-on is aimed to be used with the [ngX-Rocket generator](https://github.com/ngx-rocket/generator-ngx-rocket) via the dedicated
+[CLI](https://github.com/ngx-rocket/cli).
