@@ -8,6 +8,9 @@ class ExampleGenerator extends Generator {
 
   // DO NOT add a constructor, it won't be called.
   // Use initializing() method instead.
+  //
+  // See Yeoman's doc run loop priorities for the list of specific tasks:
+  // http://yeoman.io/authoring/running-context.html
 
   initializing() {
     // Setting version allows Yeoman to notify the user of updates
