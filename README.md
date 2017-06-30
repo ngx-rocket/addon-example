@@ -12,3 +12,7 @@ See [ngx-rocket/core](https://github.com/ngx-rocket/core) for the complete docum
 
 This add-on is aimed to be used with the [ngX-Rocket generator](https://github.com/ngx-rocket/generator-ngx-rocket) via
 the dedicated [CLI](https://github.com/ngx-rocket/cli).
+
+# License
+
+[MIT](LICENSE)
