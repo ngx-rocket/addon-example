@@ -1,6 +1,6 @@
 {
   "name": "generator-addon-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ngX-Rocket add-on example",
   "repository": "ngx-rocket/addon-example",
   "main": "./generators/app/index.js",
