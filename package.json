@@ -5,7 +5,8 @@
   "repository": "ngx-rocket/addon-example",
   "main": "./generators/app/index.js",
   "scripts": {
-    "test": "eslint generators/app/*.js"
+    "test": "eslint generators/app/*.js",
+    "postpublish": "git tag -a $npm_package_version -m '$npm_package_version' && git push --tags"
   },
   "keywords": [
     "yeoman-generator",
