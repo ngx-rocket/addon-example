@@ -5,7 +5,6 @@ const chalk = require('chalk');
 const pkg = require('../../package.json');
 
 class ExampleGenerator extends Generator {
-
   // DO NOT add a constructor, it won't be called.
   // Use initializing() method instead.
   //
@@ -23,11 +22,9 @@ class ExampleGenerator extends Generator {
     // used in templates
     Object.assign(this.props, this.sharedProps);
   }
-
 }
 
 module.exports = Generator.make({
-
   // Base directory of your templates
   baseDir: __dirname,
 
@@ -52,5 +49,4 @@ module.exports = Generator.make({
       when: props => props.sayHello
     }
   ]
-
 });
